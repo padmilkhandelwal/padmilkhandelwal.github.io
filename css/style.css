@@ -8790,9 +8790,11 @@ h1, h2, h3, h4, h5,
   .services-1 .desc p {
     color: rgba(0, 0, 0, 0.7); }
   .services-1:hover {
-    background: #3e64ff; }
+    /* background: #3e64ff */
+    border:1px solid #3e64ff;
+  }
     .services-1:hover .icon i {
-      color: #fff; }
+      color: #3e64ff; }
     .services-1:hover h3 {
       color: #000000; }
       .services-1:hover h3:after {
